@@ -2,12 +2,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "ApajaritaCapacitorSecureStoragePlugin",
+    name: "AparajitaCapacitorSecureStorage",
     platforms: [.iOS(.v15)],
     products: [
         .library(
-            name: "ApajaritaCapacitorSecureStoragePlugin",
-            targets: ["SecureStoragePlugin"]
+            name: "AparajitaCapacitorSecureStorage",
+            targets: ["AparajitaCapacitorSecureStorage"]
         )
     ],
     dependencies: [
@@ -15,16 +15,16 @@ let package = Package(
     ],
     targets: [
         .target(
-            name: "SecureStoragePlugin",
+            name: "AparajitaCapacitorSecureStorage",
             dependencies: [
                 .product(name: "Capacitor", package: "capacitor-swift-pm")
             ],
-            path: "ios/Sources"
+            path: "ios/Sources/SecureStoragePlugin"
         ),
         .testTarget(
             name: "SecureStoragePluginTests",
             dependencies: ["SecureStoragePlugin"],
-            path: "ios/Tests"
+            path: "ios/Tests/SecureStorageTests"
         )
     ]
 )
