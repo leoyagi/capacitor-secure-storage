@@ -25,8 +25,9 @@
     "android/src/main/",
     "android/build.gradle",
     "dist/",
-    "ios/Plugin/",
-    "*.podspec",
+    "ios/Sources/",
+    "ios/Tests/",
+    "Package.swift",
     "LICENSE"
   ],
   "scripts": {
