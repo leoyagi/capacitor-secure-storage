@@ -22,8 +22,8 @@ let package = Package(
             path: "ios/Sources/SecureStoragePlugin"
         ),
         .testTarget(
-            name: "SecureStoragePluginTests",
-            dependencies: ["SecureStoragePlugin"],
+            name: "AparajitaCapacitorSecureStorageTests",
+            dependencies: ["AparajitaCapacitorSecureStorage"],
             path: "ios/Tests/SecureStorageTests"
         )
     ]
