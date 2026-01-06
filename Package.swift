@@ -7,7 +7,7 @@ let package = Package(
     products: [
         .library(
             name: "ApajaritaCapacitorSecureStoragePlugin",
-            targets: ["ApajaritaCapacitorSecureStoragePlugin"]
+            targets: ["SecureStoragePlugin"]
         )
     ],
     dependencies: [
