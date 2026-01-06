@@ -40,7 +40,8 @@
     "prepublishOnly": "npm run build",
     "prerelease": "pnpm build",
     "tag.preview": "pnpm tag --dry-run",
-    "release": "./scripts/release.sh"
+    "release": "./scripts/release.sh",
+    "prepare": "npm run build"
   },
   "keywords": [
     "capacitor",
