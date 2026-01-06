@@ -2,12 +2,12 @@
 import PackageDescription
 
 let package = Package(
-    name: "SecureStoragePlugin",
+    name: "ApajaritaCapacitorSecureStoragePlugin",
     platforms: [.iOS(.v15)],
     products: [
         .library(
-            name: "SecureStoragePlugin",
-            targets: ["SecureStoragePlugin"]
+            name: "ApajaritaCapacitorSecureStoragePlugin",
+            targets: ["ApajaritaCapacitorSecureStoragePlugin"]
         )
     ],
     dependencies: [
